@@ -10,5 +10,6 @@ let arr = [
     [{ a: { price: 35 } }],
     [{ a: { price: 44 } }],
 ];
+let total = 0;
 let price = arr.flat().reduce((sum, obj) => sum + obj.a.price, 0);
 console.log(price);
